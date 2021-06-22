@@ -1,6 +1,6 @@
 {
   "homepage": "https://maximillianf22.github.io/maxpupies",
-  "name": "hush-puppies-app",
+  "name": "hooks_react_js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,12 +20,12 @@
     "xzoom": "^1.0.15"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
